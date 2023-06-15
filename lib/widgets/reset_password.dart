@@ -10,9 +10,9 @@ class ResetScreen extends StatefulWidget {
 }
 
 class _ResetScreenState extends State<ResetScreen> {
-  String _email;
-  bool emailValid;
-  String error;
+  String _email = '';
+  bool emailValid = false;
+  String error = '';
   final auth = FirebaseAuth.instance;
 
   @override
